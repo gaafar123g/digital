@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>ديجيتال ماركيتينج برو</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="تصميم وتطوير المواقع الإلكترونية، أفضل شركة تصميم مواقع في السعودية، التسويق عبر وسائل التواصل الاجتماعي، التسويق عبر البريد الإلكتروني، تسويق المحتوى">
  <meta name="keywords" content="افضل شركة تصميم مواقع في السعودية, افضل شركةتسويق الكتروني في السعودية , ميديا باير , تصميم مواقع , تصميم جرافيك , دعاية واعلان , خطة تسويقية , شركة تسويق,ديجيتال ماركيتينج برو , شركة برمجة ">
-    <meta name="description" content="تصميم وتطوير المواقع الإلكترونية,افضل شركة تصميم مواقع في السعودية ,التسويق عبر وسائل التواصل الاجتماعي ,التسويق عبر البريد الإلكتروني، تسويق المحتوى">
   <!-- Favicons -->
   <link href="logo/gpt.png" rel="icon">
 
-  <!-- Fonts -->
+  <!-- Fonts: Cairo covers Arabic + Latin so the same family works for both languages -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,6 +24,7 @@
 
   <!-- Main CSS File -->
   <link href="css/main.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
 
   <style>
     strong{
@@ -89,16 +88,16 @@ z-index: 100;}
          <img src="logo/gpt.png" alt=""> 
       </a>
 
-      <nav id="navmenu" class="navmenu" dir="rtl">
+      <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">الرئسية<br></a></li>
-          <li><a href="#about">من نحن</a></li>
-          <li><a href="#services">خدماتنا</a></li>
-          <li><a href="#testimonials">شركاء النجاح</a></li>
+          <li><a href="#hero" class="active" data-en="Home">الرئسية<br></a></li>
+          <li><a href="#about" data-en="About Us">من نحن</a></li>
+          <li><a href="#services" data-en="Services">خدماتنا</a></li>
+          <li><a href="#testimonials" data-en="Success Partners">شركاء النجاح</a></li>
           <!--<li><a href="#alt-services"> مقالات تهمك </a></li>
           <li><a href="#portfolio"> مواقع جاهزة للبيع  </a></li>-->
 
-          <li><a href="#pricing">أسئلة شائعة</a></li>
+          <li><a href="#pricing" data-en="FAQ">أسئلة شائعة</a></li>
           <!--<li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -116,10 +115,12 @@ z-index: 100;}
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>-->
-          <li><a href="#contact">أتصل بنا</a></li>
+          <li><a href="#contact" data-en="Contact Us">أتصل بنا</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
+
+      <button id="lang-toggle" type="button" class="lang-toggle-btn" aria-label="Switch language">EN</button>
 
       <!--<a class="btn-getstarted" href="index.html#about">Get Started</a>-->
 
@@ -132,11 +133,11 @@ z-index: 100;}
     <section id="hero" class="hero section">
 
       <div class="container">
-        <div class="row gy-4" dir="rtl">
+        <div class="row gy-4">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" style="text-align: right;">
-            <h1 style="color: #ffa800;">تنمية أعمالك مع  : </h1>
+            <h1 style="color: #ffa800;" data-en="Grow your business with:">تنمية أعمالك مع  : </h1>
             <h1>Digtal Marketing_pro</h1>
-            <p style="text-align: right;">نحن فريق من المصممين الموهوبين الذين يصنعون مواقع الويب والتسويق الالكتروني</p>
+            <p style="text-align: right;" data-en="We're a team of talented designers building websites and digital marketing that grow your brand">نحن فريق من المصممين الموهوبين الذين يصنعون مواقع الويب والتسويق الالكتروني</p>
             <div class="d-flex">
              <!-- <a href="#about" class="btn-get-started">Get Started</a>
               <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"></a>-->
@@ -158,7 +159,7 @@ z-index: 100;}
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2> نبذة عنا </h2>
+        <h2 data-en="About Us"> نبذة عنا </h2>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -169,17 +170,17 @@ z-index: 100;}
             <div class="row gy-4">
 
               <div class="col-md-6 icon-box position-relative" style="text-align: center;">
-                <iframe style="width: 300px;height: 400px;" class="embed-responsive-item" src="1.mp4" allowfullscreen></iframe>
+                <video style="width: 300px;height: 400px;object-fit: cover;border-radius: 8px;" class="embed-responsive-item" src="media/promo.mp4" muted loop playsinline autoplay preload="metadata" controls></video>
               </div><!-- Icon-Box -->     
              
             </div>
           </div>
           <div class="content col-xl-5 d-flex flex-column" data-aos="fade-up" data-aos-delay="100" >
-            <h3> 🔹 تصميم مواقع إلكترونية  </h3>
-            <p> نصمّم مواقع أنيقة، سريعة، ومتوافقة مع كل الأجهزة (جوال – تابلت – كمبيوتر)، سواء كنت بزنس صغير أو مؤسسة كبيرة 👌   </p>
-            <p>  من المتاجر الإلكترونية إلى المواقع التعريفية وحتى الأنظمة الخاصة! </p>
-            <p>  📲 تسويق إلكتروني ذكي </p>
-            <p> ندير حملات إعلانية على فيسبوك، إنستغرام، قوقل، ونوصّل رسالتك للعملاء الصح </p>
+            <h3 data-en="🔹 Website Design"> 🔹 تصميم مواقع إلكترونية  </h3>
+            <p data-en="We design elegant, fast websites that work on every device — mobile, tablet and desktop — whether you're a small business or a large organization 👌"> نصمّم مواقع أنيقة، سريعة، ومتوافقة مع كل الأجهزة (جوال – تابلت – كمبيوتر)، سواء كنت بزنس صغير أو مؤسسة كبيرة 👌   </p>
+            <p data-en="From online stores to portfolio sites and even custom systems!">  من المتاجر الإلكترونية إلى المواقع التعريفية وحتى الأنظمة الخاصة! </p>
+            <p data-en="📲 Smart Digital Marketing">  📲 تسويق إلكتروني ذكي </p>
+            <p data-en="We run ad campaigns on Facebook, Instagram and Google to get your message to the right customers"> ندير حملات إعلانية على فيسبوك، إنستغرام، قوقل، ونوصّل رسالتك للعملاء الصح </p>
             <!--<a href="#" class="about-btn align-self-center align-self-xl-start"><span>About us</span> <i class="bi bi-chevron-right"></i></a>-->
           </div>
         </div>
@@ -196,14 +197,14 @@ z-index: 100;}
           <div class="col-lg-5">
             <img src="img/stats-img.svg" alt="" class="img-fluid">
           </div>
-          <div class="col-lg-7" dir="rtl">
+          <div class="col-lg-7">
             <div class="row gy-4">
               <div class="col-lg-6">
                 <div class="stats-item d-flex">
                   <i class="bi bi-emoji-smile flex-shrink-0"></i>
                   <div>
                     <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>عملاء سعداء</strong> </p>
+                    <p><strong data-en="Happy Clients">عملاء سعداء</strong> </p>
                   </div>
                 </div>
               </div><!-- End Stats Item -->
@@ -213,7 +214,7 @@ z-index: 100;}
                   <i class="bi bi-journal-richtext flex-shrink-0"></i>
                   <div>
                     <span data-purecounter-start="0" data-purecounter-end="375" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>مشاريع</strong> </p>
+                    <p><strong data-en="Projects">مشاريع</strong> </p>
                   </div>
                 </div>
               </div><!-- End Stats Item -->
@@ -223,7 +224,7 @@ z-index: 100;}
                   <i class="bi bi-headset flex-shrink-0"></i>
                   <div>
                     <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>ساعات من الدعم</strong> </p>
+                    <p><strong data-en="Support Hours">ساعات من الدعم</strong> </p>
                   </div>
                 </div>
               </div><!-- End Stats Item -->
@@ -233,7 +234,7 @@ z-index: 100;}
                   <i class="bi bi-award-fill flex-shrink-0"> + </i>
                   <div>
                     <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>سنوات الخبرة </strong> </p>
+                    <p><strong data-en="Years of Experience">سنوات الخبرة </strong> </p>
                   </div>
                 </div>
               </div><!-- End Stats Item -->
@@ -246,39 +247,39 @@ z-index: 100;}
     <section id="services" class="services section">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>خدماتنا</h2>
+        <h2 data-en="Our Services">خدماتنا</h2>
       </div><!-- End Section Title -->
       <div class="container">
         <div class="row gy-4">
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
               <i class="bi bi-globe"></i>
-              <h4><a class="stretched-link"> إنشاء مواقع الكترونية   </a></h4>
-              <p>موقعك الإلكتروني هو أفضل من يتحدث عنك ويشرح أفكارك ويطرح منتجاتك. لكن حتى يحدث هذا، يجب أن يكون تصميم موقعك الإلكتروني جذاباً وسلساً في التعامل </p>             
+              <h4><a class="stretched-link" data-en="Website Development"> إنشاء مواقع الكترونية   </a></h4>
+              <p data-en="Your website is your best spokesperson — it explains your ideas and showcases your products. But for that to work, its design needs to be attractive and easy to use.">موقعك الإلكتروني هو أفضل من يتحدث عنك ويشرح أفكارك ويطرح منتجاتك. لكن حتى يحدث هذا، يجب أن يكون تصميم موقعك الإلكتروني جذاباً وسلساً في التعامل </p>             
             </div>
           </div><!-- End Service Item -->
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
               <i class="bi bi-badge-ad"></i>
-              <h4><a class="stretched-link"> حملات إعلانية مؤثرة  </a></h4>
-              <p>التواصل الفعال بين الشركة وجمهورها هو أساس نجاح التسويق وخاصة الإلكتروني. وتعتبر السوشيال ميديا وسيلة ترويجية خارقة لقدرتها على الوصول إلى أعداد غير محدودة من البشر </p>           
+              <h4><a class="stretched-link" data-en="Effective Ad Campaigns"> حملات إعلانية مؤثرة  </a></h4>
+              <p data-en="Effective communication between a business and its audience is the foundation of successful marketing, especially online. Social media is a powerful channel capable of reaching unlimited numbers of people.">التواصل الفعال بين الشركة وجمهورها هو أساس نجاح التسويق وخاصة الإلكتروني. وتعتبر السوشيال ميديا وسيلة ترويجية خارقة لقدرتها على الوصول إلى أعداد غير محدودة من البشر </p>           
               
             </div>
           </div><!-- End Service Item -->
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
               <i class="bi bi-bar-chart"></i>
-              <h4><a class="stretched-link"> تحسين محركات البحث   </a></h4>
-              <p> تجهيز المواقع حتى تكون متناسبة مع محركات البحث بحيث تظهر هذه المواقع بمرور الوقت واستمرار العمل عليها في النتائج الأولى من صفحات محركات البحث   </p>
+              <h4><a class="stretched-link" data-en="Search Engine Optimization"> تحسين محركات البحث   </a></h4>
+              <p data-en="We optimize websites for search engines so that, with continuous work over time, they climb to the first page of search results."> تجهيز المواقع حتى تكون متناسبة مع محركات البحث بحيث تظهر هذه المواقع بمرور الوقت واستمرار العمل عليها في النتائج الأولى من صفحات محركات البحث   </p>
                 
               </div>
           </div><!-- End Service Item -->     
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
               <i class="bi bi-graph-up-arrow"></i>
-              <h4><a class="stretched-link">  حلول تسويقية مبتكرة   </a></h4>
+              <h4><a class="stretched-link" data-en="Innovative Marketing Solutions">  حلول تسويقية مبتكرة   </a></h4>
                   
-              <p>
+              <p data-en="Social media management - Website design - Brand identity design - Product photography - Content writing - Google Ads - SEO">
                 إدارة مواقع التواصل الاجتماعي
                  - تصميم المواقع
                 - تصميم الهوية التجارية
@@ -291,7 +292,7 @@ z-index: 100;}
           </div><!-- End Service Item -->        
           <div class="content col-xl-5 d-flex flex-column" data-aos="fade-up" data-aos-delay="100" >
            
-            <a style="text-align: center;background: #125c9a;padding: 20px;border-radius: 8px;" target="_blank" href="service-details.html" class="about-btn align-self-center align-self-xl-start"><span style="color: #fff;"> عرض المزيد</span> <i class="bi bi-chevron-right"></i></a>
+            <a style="text-align: center;background: #125c9a;padding: 20px;border-radius: 8px;" target="_blank" href="service-details.html" class="about-btn align-self-center align-self-xl-start"><span style="color: #fff;" data-en="Learn More"> عرض المزيد</span> <i class="bi bi-chevron-right"></i></a>
           </div>         
         </div>
       </div>
@@ -302,7 +303,7 @@ z-index: 100;}
     <section id="testimonials" class="testimonials section light-background">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>شركاء النجاح</h2>
+        <h2 data-en="Success Partners">شركاء النجاح</h2>
       </div><!-- End Section Title -->
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="swiper init-swiper">
@@ -338,10 +339,10 @@ z-index: 100;}
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <a target="_blank" href="https://albayan-school.net/">
-                  <img src="claints/bayan.png" class="testimonial-img" alt="">
+                  <img src="claints/bayan.png" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 </div>
-                <p> أضغط لعرض الموقع الالكتروني  </p>
-                <p> المملكة العربية السعودية </p>
+                <p data-en="Click to view the website"> أضغط لعرض الموقع الالكتروني  </p>
+                <p data-en="Saudi Arabia"> المملكة العربية السعودية </p>
               </a>
               </div>
             </div> 
@@ -350,11 +351,11 @@ z-index: 100;}
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                  <a target="_blank" href="https://www.almanaelevator.com/"> 
-                  <img src="claints/1.jpg" class="testimonial-img" alt="">
+                  <img src="claints/1.jpg" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 <br>                           
                 </div>
                 
-                <p> أضغط لعرض الموقع الالكتروني  </p>
+                <p data-en="Click to view the website"> أضغط لعرض الموقع الالكتروني  </p>
                 <p>  المملكة العربية السعودية </p>
               </a>
               </div>
@@ -363,11 +364,11 @@ z-index: 100;}
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                  <a target="_blank" href="https://gaafar123g.github.io/clinic/"> 
-                  <img src="test/logo.png" class="testimonial-img" alt="">
+                  <img src="test/logo.png" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 <br>                           
                 </div>
                 
-                <p> أضغط لعرض الموقع الالكتروني  </p>
+                <p data-en="Click to view the website"> أضغط لعرض الموقع الالكتروني  </p>
                 <p>  المملكة العربية السعودية </p>
               </a>
               </div>
@@ -376,10 +377,10 @@ z-index: 100;}
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <a target="_blank" href="https://gaafar123g.github.io/inservi/">
-                  <img src="claints/logo.4.jpeg" class="testimonial-img" alt="">
+                  <img src="claints/logo.4.jpeg" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 </div>
-                <p> أضغط لعرض الموقع الالكتروني  </p>
-                <p> المملكة العربية السعودية </p>
+                <p data-en="Click to view the website"> أضغط لعرض الموقع الالكتروني  </p>
+                <p data-en="Saudi Arabia"> المملكة العربية السعودية </p>
               </a>
               </div>
             </div>
@@ -387,10 +388,10 @@ z-index: 100;}
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <a target="_blank" href="https://gaafar123g.github.io/ramda/">
-                  <img src="claints/ramdaa.jfif" class="testimonial-img" alt="">
+                  <img src="claints/ramdaa.jfif" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 </div>
-                <p> أضغط لعرض الموقع الالكتروني  </p>
-                <p> المملكة العربية السعودية </p>
+                <p data-en="Click to view the website"> أضغط لعرض الموقع الالكتروني  </p>
+                <p data-en="Saudi Arabia"> المملكة العربية السعودية </p>
               </a>
               </div>
             </div>
@@ -400,10 +401,10 @@ z-index: 100;}
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <a target="_blank" href="https://gaafar123g.github.io/lamsat5/">
-                  <img src="claints/2.jpeg" class="testimonial-img" alt="">
+                  <img src="claints/2.jpeg" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 </div>
-                <p> أضغط لعرض الموقع الالكتروني  </p>
-                <p> المملكة العربية السعودية </p>
+                <p data-en="Click to view the website"> أضغط لعرض الموقع الالكتروني  </p>
+                <p data-en="Saudi Arabia"> المملكة العربية السعودية </p>
               </a>
               </div>
             </div><!-- End testimonial item -->
@@ -412,10 +413,10 @@ z-index: 100;}
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <a target="_blank" href="https://gaafar123g.github.io/jawhara/">
-                  <img src="claints/logo.jpeg" class="testimonial-img" alt="aljawharaair.com">
+                  <img src="claints/logo.jpeg" class="testimonial-img" alt="aljawharaair.com" loading="lazy" decoding="async">
                 </div>
-                <p> أضغط لعرض الموقع الالكتروني  </p>
-                <p> المملكة العربية السعودية </p>
+                <p data-en="Click to view the website"> أضغط لعرض الموقع الالكتروني  </p>
+                <p data-en="Saudi Arabia"> المملكة العربية السعودية </p>
               </a>
               </div>
             </div>--><!-- End testimonial item -->
@@ -424,9 +425,9 @@ z-index: 100;}
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <a target="_blank" href="https://gaafar123g.github.io/jawhara/">
-                  <img src="logo/nassem.png" class="testimonial-img" alt="">
+                  <img src="logo/nassem.png" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 </div>
-                <p> أضغط لعرض الموقع الالكتروني  </p>
+                <p data-en="Click to view the website"> أضغط لعرض الموقع الالكتروني  </p>
                 <p>  المملكة العربية السعودية </p>
               </a>
               </div>
@@ -436,10 +437,10 @@ z-index: 100;}
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <a target="_blank" href="https://spin-tex.com/">
-                  <img src="claints/4.jpg" class="testimonial-img" alt="">
+                  <img src="claints/4.jpg" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 </div>
-                <p> أضغط لعرض الموقع الالكتروني  </p>
-                <p> جمهورية مصر العربية</p>
+                <p data-en="Click to view the website"> أضغط لعرض الموقع الالكتروني  </p>
+                <p data-en="Egypt"> جمهورية مصر العربية</p>
               </a>
               </div>
             </div><!-- End testimonial item -->
@@ -449,10 +450,10 @@ z-index: 100;}
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <a target="_blank" href="https://gaafar123g.github.io/kids1/">
-                  <img src="claints/kids.jpeg" class="testimonial-img" alt="">
+                  <img src="claints/kids.jpeg" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 </div>
                 <p> kids skills </p>
-                <p> تحت التنفيذ </p>
+                <p data-en="In Progress"> تحت التنفيذ </p>
               </a>
               </div>
             </div>
@@ -461,10 +462,10 @@ z-index: 100;}
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <a target="_blank" href="https://gaafar123g.github.io/hospital/">
-                  <img src="claints/5.jpg" class="testimonial-img" alt="">
+                  <img src="claints/5.jpg" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 </div>
-                <p> أضغط لعرض الموقع الالكتروني  </p>
-                <p> جمهورية مصر العربية</p>
+                <p data-en="Click to view the website"> أضغط لعرض الموقع الالكتروني  </p>
+                <p data-en="Egypt"> جمهورية مصر العربية</p>
               </a>
               </div>
             </div>--><!-- End testimonial item -->
@@ -472,10 +473,10 @@ z-index: 100;}
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <a target="_blank" href="https://gaafar123g.github.io/shalihat/">
-                  <img src="claints/davli-logo-navbar.png" class="testimonial-img" alt="">
+                  <img src="claints/davli-logo-navbar.png" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 </div>
-                <p> تحت الانشاء </p>
-                <p> المملكة العربية السعودية </p>
+                <p data-en="Under Construction"> تحت الانشاء </p>
+                <p data-en="Saudi Arabia"> المملكة العربية السعودية </p>
               </a>
               </div>
             </div> 
@@ -485,10 +486,10 @@ z-index: 100;}
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <a target="_blank" href="https://gaafar123g.github.io/GOLDEN-_FRAGRANCE/">
-                  <img src="claints/7.jpg" class="testimonial-img" alt="">
+                  <img src="claints/7.jpg" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 </div>
-                <p> أضغط لعرض الموقع الالكتروني  </p>
-                <p> جمهورية مصر العربية</p>
+                <p data-en="Click to view the website"> أضغط لعرض الموقع الالكتروني  </p>
+                <p data-en="Egypt"> جمهورية مصر العربية</p>
               </a>
               </div>
             </div><!-- End testimonial item -->
@@ -496,10 +497,10 @@ z-index: 100;}
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <a target="_blank" href="https://gaafar123g.github.io/Rahal_travel/index.html">
-                  <img src="claints/9.jpg" class="testimonial-img" alt="">
+                  <img src="claints/9.jpg" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 </div>
-                <p> أضغط لعرض الموقع الالكتروني  </p>
-                <p> جمهورية مصر العربية</p>
+                <p data-en="Click to view the website"> أضغط لعرض الموقع الالكتروني  </p>
+                <p data-en="Egypt"> جمهورية مصر العربية</p>
               </a>
               </div>
             </div><!-- End testimonial item -->
@@ -507,10 +508,10 @@ z-index: 100;}
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <a target="_blank" href="https://gaafar123g.github.io/Ali_Real.Estate_Development/">
-                  <img src="claints/8.png" class="testimonial-img" alt="">
+                  <img src="claints/8.png" class="testimonial-img" alt="" loading="lazy" decoding="async">
                 </div>
-                <p> أضغط لعرض الموقع الالكتروني  </p>
-                <p> جمهورية مصر العربية</p>
+                <p data-en="Click to view the website"> أضغط لعرض الموقع الالكتروني  </p>
+                <p data-en="Egypt"> جمهورية مصر العربية</p>
               </a>
               </div>
             </div><!-- End testimonial item -->
@@ -616,64 +617,64 @@ z-index: 100;}
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>أسئلة شائعة</h2>
+        <h2 data-en="FAQ">أسئلة شائعة</h2>
       </div><!-- End Section Title -->
 
       <!-- Team Section -->
     <section id="team" class="team section">
 
-      <div class="accordion" id="accordionExample" dir="rtl">
+      <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" data-en="Types of Google Ads by Objective">
                أنواع إعلانات جوجل حسب الهدف منها    
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body" style="text-align: right;">
-              <h5> إعلانات جوجل للبحث  </h5>
+              <h5 data-en="Google Search Ads"> إعلانات جوجل للبحث  </h5>
              <h5>Google Display Ads  </h5>
-             <h5> إعلانات فيديو Google  </h5>
-             <h5>إعلانات فيديو YouTube  </h5>
+             <h5 data-en="Google Video Ads"> إعلانات فيديو Google  </h5>
+             <h5 data-en="YouTube Video Ads">إعلانات فيديو YouTube  </h5>
 
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" data-en="Google Ads for Businesses & Organizations?">
                  جوجل أدز الإعلانية للشركات والمؤسسات  ؟ 
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-          <p>  نقدم خدمات التسويق الإلكتروني من إدارة الحملات، تحسين محركات البحث، تصميم مواقع، موشن جرافيك، وتحليل المنافسين. فريقنا في شركة KMT يسوّي كل شي عنك باحتراف، ويوصل نشاطك لعملاء مستهدفين، ويزيد مبيعاتك بأقل تكلفة وبأفضل خطة تسويقية ذكية 🚀💼          </p>
+          <p data-en="We provide digital marketing services covering campaign management, SEO, web design, motion graphics and competitor analysis. Our team handles everything professionally, connects your business with targeted customers, and grows your sales at the lowest cost with the smartest marketing plan 🚀💼">              نقدم خدمات التسويق الإلكتروني من إدارة الحملات، تحسين محركات البحث، تصميم مواقع، موشن جرافيك، وتحليل المنافسين. فريقنا في شركة KMT يسوّي كل شي عنك باحتراف، ويوصل نشاطك لعملاء مستهدفين، ويزيد مبيعاتك بأقل تكلفة وبأفضل خطة تسويقية ذكية 🚀💼          </p>
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" data-en="Running & Managing Ad Campaigns?">
                 عمل وإدارة الحملات الإعلانية ؟ 
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <p> ندير حملاتك الإعلانية عبر أقوى المنصات مثل فيسبوك، إنستقرام، سناب شات، ويوتيوب. نختار المنصة المناسبة حسب جمهورك، ونستخدم كل أدوات الترويج من تصميم، استهداف، وتحليل النتائج، عشان نوصل إعلانك للناس الصح بأقوى تأثير وأقل تكلفة 🚀📱</p>
+              <p data-en="We manage your ad campaigns across the strongest platforms — Facebook, Instagram, Snapchat and YouTube. We pick the right platform for your audience and use every promotion tool — design, targeting and results analysis — to reach the right people with maximum impact and minimum cost 🚀📱"> ندير حملاتك الإعلانية عبر أقوى المنصات مثل فيسبوك، إنستقرام، سناب شات، ويوتيوب. نختار المنصة المناسبة حسب جمهورك، ونستخدم كل أدوات الترويج من تصميم، استهداف، وتحليل النتائج، عشان نوصل إعلانك للناس الصح بأقوى تأثير وأقل تكلفة 🚀📱</p>
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-four" id="headingfour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour" data-en="Key Success Factors for Campaign Management?">
                 أهم عوامل نجاح إدارة الحملات الإعلانية ؟ 
             </button>
           </h2>
           <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <p>   تحديد الجمهور المستهدف الخاص بمنتجك أو خدمتك، ومعرفة كيفية الوصول إليه</p>
-              <p>العمل على تحليل منافسيك ومعرفة نقاط ضعفهم</p>
-              <p>القيام بدراسةٍ شاملة للسوق وتقديم تقاريرٍ مستمرة عن آخر المستجدات التي وصلنا إليها من خلال تلك الدراسة</p>
+              <p data-en="Identifying your product or service's target audience and how to reach them">   تحديد الجمهور المستهدف الخاص بمنتجك أو خدمتك، ومعرفة كيفية الوصول إليه</p>
+              <p data-en="Analyzing your competitors and finding their weak points">العمل على تحليل منافسيك ومعرفة نقاط ضعفهم</p>
+              <p data-en="Conducting comprehensive market research and providing ongoing reports on the latest findings">القيام بدراسةٍ شاملة للسوق وتقديم تقاريرٍ مستمرة عن آخر المستجدات التي وصلنا إليها من خلال تلك الدراسة</p>
             </div>
           </div>
         </div>
@@ -683,88 +684,93 @@ z-index: 100;}
     </section><!-- /Pricing Section -->
 
   </main>
-  <!-- Contact Start -->
-  <!--<div class="container-fluid py-5">
-    <div class="container py-5">
-        <div class="row g-4 align-items-center">
-           
-            <div class="col-12">
-                <div class="rounded">
-                    <iframe class="rounded-top w-100"                  
-                    style="height: 450px; margin-bottom: -6px;" src="https://docs.google.com/forms/d/e/1FAIpQLSeCi5pvdQVLcNQzs8ODu6ZG7h356mxHQFJhAfpjF7Rcna_16g/viewform?usp=header" 
-                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                
-            </div>
-            <div class="col-12">
-                <div class="rounded">
-                    <iframe class="rounded-top w-100"                  
-                    style="height: 450px; margin-bottom: -6px;" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3453.8732190328983!2d31.20056248488511!3d30.040494881883745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDAyJzI1LjgiTiAzMcKwMTEnNTQuMiJF!5e0!3m2!1sar!2seg!4v1757935501687!5m2!1sar!2seg" 
-                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-               
-            </div>
-        </div>
-    </div>
-</div>-->
-<!-- Contact End -->
- 
-    <div id="contact" class="contact-box">
-      <div class="container-fluid">
-          <div class="row">
-              <div class="col-lg-12">
-                <div class="container section-title" data-aos="fade-up">
-                  <h2> تواصل معنا</h2>
-                </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-12 col-xs-12">
-                  <div class="contact-block">
-                      <form id="contactForm">
-                          <div class="row">
-                              <div class="col-md-4">
-                                  <div class="form-group" style="padding-top:20px">
-                                      <div class="form-group" style="padding-top:20px">
-                                          <img style="width:100%;height:55vh;box-shadow: 0px 1px 2px #fca901;"src="logo/gpt.png">
-                                          <div class="help-block with-errors"></div>
-                                      </div>
-                                      <div class="help-block with-errors"></div>
-                                  </div>
-                              </div>
-                              <div class="col-md-4" style="padding-top:10px">
-                                  <div class="form-group">
-                                      <ul style="padding:10px;text-align:center;display: grid;list-style: none;">
-                                          <li style="font-size:30px;"><a target="_blank" href="https://web.facebook.com/profile.php?id=61553920524111"class="bi bi-facebook"></a></li>
-                                          <li style="font-size:30px;"><a target="_blank" href="https://www.instagram.com/marketing.enigma/"class="bi bi-instagram"></a></li>
-                                          <li style="font-size:30px;"><a target="_blank" href="https://wsend.co/201014194537"class="bi bi-whatsapp"></a></li>
-                                          <li style="font-size:33px;"><a target="_blank" href="https://www.snapchat.com/add/marketing.43?share_id=X9hyQ7yJBgI&locale=ar-EG"class="bi bi-snapchat" aria-hidden="true"></a></li>
-                                          <li style="font-size:30px;"><a target="_blank" href="https://www.tiktok.com/@digitalmarketingbro1"class="bi bi-tiktok"></a></li>
 
-                                        </ul>
-                                  </div>
-                              </div>
-                              <div class="col-md-4" style="padding-top:30px;text-align:center;">
-                                  <h2 style="color: #125c9a;">      عن ديجيتال ماركيتينج برو  </h2>
-                                  <h5 style="text-align:right">
-شركة التسويق الإلكتروني والبرمجة هي شركة تعمل في مجال التسويق الرقمي وتطوير البرمجيات. تهدف هذه الشركات إلى مساعدة العملاء في تحقيق أهدافهم التسويقية وتعزيز وجودهم عبر الإنترنت    
-                                  </h5>
-                                  <h5 style="text-align:right">
-                                      فيما يتعلق بالتسويق الإلكتروني، تقوم الشركة بتطوير وتنفيذ استراتيجيات التسويق عبر الإنترنت للعملاء. قد تشمل هذه الاستراتيجيات العناصر التالية
-                                  </h5>
-                                 
-                              </div>                                                    
-                          </div>
-                      </form>
-                      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);color: #3498db;">
-                            جميع الحقوق محفوظة لدى شركة ديجيتال ماركيتينج برو
-                       
-                      </div>
-                  </div>
-              </div>
+  <!-- Contact Section -->
+  <div id="contact" class="contact-box">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="container section-title" data-aos="fade-up">
+            <h2 data-en="Contact Us"> تواصل معنا</h2>
+            <p data-en="Fill in the form and your message will be sent directly to us on WhatsApp">املأ النموذج وهيوصلنا رسالتك مباشرة على الواتساب</p>
           </div>
+        </div>
       </div>
+
+      <div class="container">
+        <div class="row g-5 align-items-start">
+
+          <!-- New WhatsApp-connected contact form -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="wa-contact-card">
+              <div class="wa-contact-card-head">
+                <i class="bi bi-whatsapp"></i>
+                <h3 data-en="Send us a message on WhatsApp">ابعتلنا رسالتك على الواتساب</h3>
+              </div>
+              <form id="waContactForm" class="wa-contact-form" novalidate>
+                <div class="wa-field">
+                  <label for="waName" data-en="Full name">الاسم بالكامل</label>
+                  <input type="text" id="waName" name="waName" required placeholder="اكتب اسمك" data-en-placeholder="Your name">
+                </div>
+                <div class="wa-field">
+                  <label for="waPhone" data-en="Phone / WhatsApp number">رقم الجوال / الواتساب</label>
+                  <input type="tel" id="waPhone" name="waPhone" required placeholder="05xxxxxxxx" data-en-placeholder="05xxxxxxxx">
+                </div>
+                <div class="wa-field">
+                  <label for="waService" data-en="Service you need">الخدمة المطلوبة</label>
+                  <select id="waService" name="waService" required>
+                    <option value="" data-en="Choose a service" selected disabled>اختر الخدمة</option>
+                    <option value="تصميم موقع إلكتروني" data-en="Website design">تصميم موقع إلكتروني</option>
+                    <option value="حملات إعلانية (سوشيال ميديا)" data-en="Ad campaigns (social media)">حملات إعلانية (سوشيال ميديا)</option>
+                    <option value="تحسين محركات البحث SEO" data-en="SEO">تحسين محركات البحث SEO</option>
+                    <option value="هوية تجارية وتصميم جرافيك" data-en="Branding & graphic design">هوية تجارية وتصميم جرافيك</option>
+                    <option value="استشارة تسويقية" data-en="Marketing consultation">استشارة تسويقية</option>
+                    <option value="خدمة أخرى" data-en="Other">خدمة أخرى</option>
+                  </select>
+                </div>
+                <div class="wa-field">
+                  <label for="waMessage" data-en="Your message">رسالتك</label>
+                  <textarea id="waMessage" name="waMessage" rows="4" placeholder="اكتب تفاصيل طلبك هنا..." data-en-placeholder="Write the details of your request here..."></textarea>
+                </div>
+                <button type="submit" class="wa-submit-btn">
+                  <i class="bi bi-whatsapp"></i>
+                  <span data-en="Send via WhatsApp">إرسال عبر واتساب</span>
+                </button>
+                <p class="wa-privacy-note" data-en="By submitting, WhatsApp will open with your message ready to send to us.">بالضغط على إرسال هيتفتح لك الواتساب ورسالتك جاهزة تتبعت لينا.</p>
+              </form>
+            </div>
+          </div><!-- End contact form -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="wa-about-card">
+              <h2 data-en="About Digital Marketing Pro">عن ديجيتال ماركيتينج برو</h2>
+              <p data-en="Digital Marketing Pro works in digital marketing and software development, helping clients achieve their marketing goals and strengthen their online presence.">شركة التسويق الإلكتروني والبرمجة هي شركة تعمل في مجال التسويق الرقمي وتطوير البرمجيات. تهدف هذه الشركات إلى مساعدة العملاء في تحقيق أهدافهم التسويقية وتعزيز وجودهم عبر الإنترنت</p>
+              <p data-en="When it comes to digital marketing, we develop and execute online marketing strategies for our clients.">فيما يتعلق بالتسويق الإلكتروني، تقوم الشركة بتطوير وتنفيذ استراتيجيات التسويق عبر الإنترنت للعملاء</p>
+
+              <ul class="wa-social-links">
+                <li><a target="_blank" href="https://web.facebook.com/profile.php?id=61553920524111" class="bi bi-facebook" aria-label="Facebook"></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/marketing.enigma/" class="bi bi-instagram" aria-label="Instagram"></a></li>
+                <li><a target="_blank" href="https://wsend.co/201014194537" class="bi bi-whatsapp" aria-label="WhatsApp"></a></li>
+                <li><a target="_blank" href="https://www.snapchat.com/add/marketing.43?share_id=X9hyQ7yJBgI&locale=ar-EG" class="fa fa-snapchat" aria-hidden="true" aria-label="Snapchat"></a></li>
+                <li><a target="_blank" href="https://www.tiktok.com/@digitalmarketingbro1" class="bi bi-tiktok" aria-label="TikTok"></a></li>
+              </ul>
+
+              <div class="wa-map-wrap">
+                <iframe class="wa-map" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3453.8732190328983!2d31.20056248488511!3d30.040494881883745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDAyJzI1LjgiTiAzMcKwMTEnNTQuMiJF!5e0!3m2!1sar!2seg!4v1757935501687!5m2!1sar!2seg"
+                  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div><!-- End about/info -->
+
+        </div>
+      </div>
+
+      <div class="text-center p-3 wa-footer-bar" data-en="All rights reserved © Digital Marketing Pro">
+        جميع الحقوق محفوظة لدى شركة ديجيتال ماركيتينج برو
+      </div>
+    </div>
   </div>
+  <!-- /Contact Section -->
 
 
   <!-- Scroll Top -->
@@ -787,6 +793,7 @@ z-index: 100;}
 
   <!-- Main JS File -->
   <script src="js/main.js"></script>
+  <script src="js/site-custom.js"></script>
  
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-T3SW77KTD8"></script>
