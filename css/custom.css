@@ -1,0 +1,227 @@
+/*--------------------------------------------------------------
+# Custom additions: language toggle, WhatsApp contact form, RTL polish
+--------------------------------------------------------------*/
+
+/* Language toggle button in the header */
+.lang-toggle-btn {
+  margin-inline-start: 16px;
+  border: 2px solid var(--accent-color);
+  background: transparent;
+  color: var(--accent-color);
+  font-weight: 700;
+  font-family: var(--nav-font);
+  font-size: 14px;
+  padding: 6px 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  line-height: 1;
+}
+
+.lang-toggle-btn:hover {
+  background: var(--accent-color);
+  color: #fff;
+}
+
+/* Icon spacing that should flip with direction */
+.stats-item i,
+.service-item i,
+.icon-box i {
+  margin-inline-end: 15px;
+  margin-inline-start: 0;
+}
+
+/* When switched to English, force LTR on the few elements that had an explicit RTL hack,
+   and correct inline "text-align:right" leftovers so the layout still reads naturally. */
+body.lang-en {
+  direction: ltr;
+}
+
+body.lang-en [dir="rtl"] {
+  direction: ltr;
+}
+
+body.lang-en [style*="text-align: right"],
+body.lang-en [style*="text-align:right"] {
+  text-align: left !important;
+}
+
+body.lang-en .faqq,
+body.lang-en .accordion-body {
+  text-align: left;
+}
+
+/*--------------------------------------------------------------
+# WhatsApp contact form
+--------------------------------------------------------------*/
+.wa-contact-card {
+  background: var(--surface-color);
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.06);
+  height: 100%;
+}
+
+.wa-contact-card-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.wa-contact-card-head i {
+  font-size: 30px;
+  color: #25D366;
+}
+
+.wa-contact-card-head h3 {
+  margin: 0;
+  font-size: 22px;
+  color: var(--heading-color);
+}
+
+.wa-contact-form .wa-field {
+  margin-bottom: 18px;
+  text-align: right;
+}
+
+.wa-contact-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--heading-color);
+}
+
+.wa-contact-form input,
+.wa-contact-form select,
+.wa-contact-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 75%);
+  background: var(--background-color);
+  color: var(--default-color);
+  font-family: var(--default-font);
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.wa-contact-form input:focus,
+.wa-contact-form select:focus,
+.wa-contact-form textarea:focus {
+  outline: none;
+  border-color: #25D366;
+  box-shadow: 0 0 0 3px rgba(37, 211, 102, 0.15);
+}
+
+.wa-contact-form input.wa-invalid,
+.wa-contact-form select.wa-invalid {
+  border-color: #e74c3c;
+  box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.12);
+}
+
+.wa-submit-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #25D366;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 20px;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: var(--nav-font);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.wa-submit-btn:hover {
+  background: #1ebc59;
+  transform: translateY(-2px);
+}
+
+.wa-submit-btn i {
+  font-size: 20px;
+}
+
+.wa-privacy-note {
+  margin: 12px 0 0;
+  font-size: 13px;
+  text-align: center;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+}
+
+.wa-about-card {
+  background: var(--surface-color);
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.06);
+  height: 100%;
+}
+
+.wa-about-card h2 {
+  color: #125c9a;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.wa-about-card p {
+  text-align: right;
+  margin-bottom: 12px;
+}
+
+.wa-social-links {
+  display: flex;
+  gap: 14px;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.wa-social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--accent-color), transparent 90%);
+  color: var(--accent-color);
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.wa-social-links a:hover {
+  background: var(--accent-color);
+  color: #fff;
+}
+
+.wa-map-wrap {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.wa-map {
+  width: 100%;
+  height: 260px;
+  border: 0;
+  display: block;
+}
+
+.wa-footer-bar {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #3498db;
+  margin-top: 40px;
+}
+
+@media (max-width: 991px) {
+  .wa-contact-card,
+  .wa-about-card {
+    padding: 22px;
+  }
+}
