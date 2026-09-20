@@ -1629,3 +1629,44 @@ section,
 # Starter Section Section
 --------------------------------------------------------------*/
 
+.faqq{
+    text-align: right;
+   }
+   #fixedWhatsAppIcon {
+  display: block;
+  position: fixed;
+  left: 22px;
+  bottom: 180px;
+  width: 56px;
+  height: 53px;
+  background-color: #54b460;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 24px;
+  z-index: 9999;
+}
+#fixedWhatsAppIcon:hover {
+  background-color: #339933;
+} 
+/*  whatsapp*/
+.whats-app {
+position: fixed;
+width: 55px;
+height: 51px;
+bottom: 109px;
+left: 20px;
+background-color: #237cb8;
+color: #FFF;
+border-radius: 50px;
+text-align: center;
+font-size: 30px;
+box-shadow: 2px 2px 3px #999;
+z-index: 100;}
+.whats{
+  color: #fff;
+}
+
+
+/*  whatsapp*/
