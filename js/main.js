@@ -194,6 +194,6 @@ observeReveal();
 
 /* ===== اللودر + شبكة أمان ===== */
 function hideLoader(){const l=$('#loader');if(l)l.classList.add('hide');}
-setTimeout(hideLoader, 1000);
+setTimeout(hideLoader, 2000);
 setTimeout(()=>$$('.reveal:not(.in)').forEach(el=>{const r=el.getBoundingClientRect();if(r.top<innerHeight&&r.bottom>0)el.classList.add('in');}),4000);
 })();
