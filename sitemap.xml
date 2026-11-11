@@ -1,11 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://your-domain.com/</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://your-domain.com/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://your-domain.com/"/>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://www.YOUR-DOMAIN.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/about.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/services.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/services/software-web-development.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/services/digital-marketing.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/services/paid-advertising.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/services/seo.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/services/tracking-measurement.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/services/video-production.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/services/additional-services.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/projects.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/blog.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/blog/marketing-plan-for-small-business.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/blog/seo-basics-checklist.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/blog/choosing-website-type.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/blog/privacy-aware-tracking.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/contact.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/privacy.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/terms.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/schools.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/clinics.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/retail.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/food-products.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/services-contracting.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/fashion.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/restaurants.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/real-estate.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/ecommerce.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/schools-private-schools.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/schools-kindergartens.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/schools-training-centers.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/schools-online-education.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/clinics-dental.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/clinics-skin-laser.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/clinics-injectables.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/clinics-medical-centers.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/clinics-beauty-salons.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/retail-wholesale.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/retail-distribution.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/retail-supermarkets.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/retail-showrooms.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/food-products-packaged-foods.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/food-products-dates-nuts.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/food-products-sweets-snacks.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/food-products-beverages.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/services-contracting-contracting.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/services-contracting-maintenance.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/services-contracting-cleaning.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/services-contracting-interior-design.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/fashion-mens-wear.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/fashion-womens-wear.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/fashion-kids-wear.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/fashion-abayas-modest.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/fashion-sportswear.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/fashion-shoes-bags.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/fashion-accessories.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/restaurants-restaurants.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/restaurants-cafes.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/restaurants-cloud-kitchens.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/restaurants-bakeries-sweets.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/real-estate-developers.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/real-estate-brokerage.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/real-estate-rentals.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/real-estate-commercial.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/ecommerce-launch-store.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/ecommerce-scaling-stores.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/ecommerce-cod-markets.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.YOUR-DOMAIN.com/sectors/ecommerce-social-commerce.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
 </urlset>
